@@ -2,8 +2,13 @@
 def merge(arrA, arrB):
     elements = len(arrA) + len(arrB)
     merged_arr = [0] * elements
-
     # Your code here
+    # starting at the beginning of `a` and `b`
+    # compare the next value of each
+    # add smallest to `merged_arr`
+
+    #if a of len(arrA) > b of len(arrB)
+    
 
 
     return merged_arr
@@ -11,6 +16,10 @@ def merge(arrA, arrB):
 # TO-DO: implement the Merge Sort function below recursively
 def merge_sort(arr):
     # Your code here
+    if len( arr ) > 1:
+        # recursively call merge_sort() on LHS
+        # recursively call merge_sort() on RHS
+        # merge sorted pieces
 
 
     return arr
