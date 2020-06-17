@@ -12,7 +12,7 @@
 #         if guess == target:
 #             return middle
 #         if guess > target:
-#             end = middle +1
+#             end = middle +1 
 #     return -1
 
 
